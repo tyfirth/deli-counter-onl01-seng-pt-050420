@@ -1,8 +1,8 @@
 katz_deli = []
 
-def line(x)
+def line(array)
   new_line_array = []
-  if x.length == 0 
+  if array.length == 0 
   puts "The line is currently empty."
 else 
   x.each_with_index(1) do |name, index|
